@@ -19,19 +19,19 @@
     position: fixed;
     top: 90vh;
     left: 5vh;
-    background: linear-gradient(-45deg, #351c1ca1, #2b1010ab,#270505a6,#2c0808a1,#290202b0);
+    background: linear-gradient(-45deg, #261c35a1, #18102bab,#0e0527a6,#16082ca1,#0a0229b0);
     box-shadow: 0 0 10px rgb(10, 0, 0);
     animation: boton-click 1s ease-in-out forwards,blinkxd 3s ease-in-out infinite,10s rotate linear infinite;
     animation-delay: 0.5s;
     border: 1.8px solid;
-    border-image: linear-gradient(var(--angle), #6114dc,#c3252500,#c3252500,#c3252500,#6114dc) 1;
+    border-image: linear-gradient(var(--angle), #6114dc,#dad8e000,#dad8e000,#dbd8e000,#6114dc) 1;
     border-radius: 7px;
 }
 
 .fondocolor {
     width: 120%;
     height: 120%;
-    background: linear-gradient(-45deg, #351c1ca1, #2b1010ab,#270505a6,#2c0808a1,#290202b0);
+    background: linear-gradient(-45deg, #271c35a1, #1a102bab,#0e0527a6,#12082ca1,#0a0229b0);
     background-size: 400% 400%;
     filter: blur(2);
     opacity: 0.4;
@@ -86,7 +86,7 @@
     opacity: 0;
     animation-delay: 1s;
     transition: ease-in-out 0.3s;
-    background: linear-gradient(-45deg, #351c1ca1, #2b1010ab,#270505a6,#2c0808a1,#290202b0);
+    background: linear-gradient(-45deg, #211c35a1, #16102bab,#0e0527a6,#12082ca1,#0c0229b0);
     background-size: 400% 400%;
     filter: blur(2);
 }
@@ -127,7 +127,7 @@
     font-size: 1.75vh;
     color: white;
     border-bottom: 4px solid;
-    border-image: linear-gradient(var(--angle), #221115, #52202a,#861c31,#6114dc,#ee0131) 1;
+    border-image: linear-gradient(var(--angle), #171122, #332052,#381c86,#6114dc,#4001ee) 1;
     animation: blinkxd 6s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite,5s rotate linear infinite;
     box-shadow: 0 0 40px #6114dc;
 }
@@ -141,7 +141,7 @@
     width: 110%;
     height: 100%;
     border-top: 4px solid;
-    border-image: linear-gradient(var(--angle), #221115, #52202a,#861c31,#6114dc,#ee0131) 1;
+    border-image: linear-gradient(var(--angle), #151122, #322052,#4a1c86,#6114dc,#4801ee) 1;
     animation: blinkxd 6s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite,5s rotate linear infinite;
     box-shadow: 0 0 40px #6114dc;
 } 
@@ -169,7 +169,7 @@
     left: 14%;
     top: -40%;
     overflow: visible !important;
-    background-color: rgb(15 0 0 / 85%);
+    background-color: rgba(5, 0, 15, 0.85);
     border-radius: .8vh;
     padding: 30px;
     border-top: 0.5px solid;
@@ -177,10 +177,10 @@
     border-left: 1px solid;
     border-right: 1px solid;
     overflow: visible !important;
-    box-shadow: 0 0 30px rgb(30 0 0 / 98%) !important;
-    border-image: linear-gradient(var(--angle), #6114dc,#c3252500,#c3252500,#c3252500,#6114dc) 1;
+    box-shadow: 0 0 30px rgba(7, 0, 30, 0.98) !important;
+    border-image: linear-gradient(var(--angle), #6114dc,#dbd8e000,#dbd8e000,#dad8e000,#6114dc) 1;
     animation: 20s rotate linear infinite,shake-slow2 10s ease-in-out infinite,gradient 15s ease infinite;
-    background: linear-gradient(-45deg, #351c1ca1, #2b1010ab,#270505a6,#2c0808a1,#290202b0);
+    background: linear-gradient(-45deg, #261c35a1, #17102bab,#0e0527a6,#0f082ca1,#0a0229b0);
     background-size: 400% 400%;
     
 
@@ -258,9 +258,9 @@
     border-right: 3px solid;
     border-top:0px solid;
     border-bottom:0px solid;
-    border-image: linear-gradient(var(--angle), #6114dc,#c3252500,#c3252500,#c3252500,#6114dc) 1;
+    border-image: linear-gradient(var(--angle), #6114dc,#d9d8e000,#dcd8e000,#dad8e000,#6114dc) 1;
     animation: blinkxd 10s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite,5s rotate linear infinite;
-    background: linear-gradient(-45deg, #351c1ca1, #2b1010ab,#270505a6,#2c0808a1,#290202b0);
+    background: linear-gradient(-45deg, #211c35a1, #3910ab10,#0c0527a6,#0f082ca1,#0c0229b0);
 }
 
 .character-no > span {
@@ -280,14 +280,14 @@
 }
 
 .char-selected {
-    box-shadow: 0 0 100px rgba(255, 1, 1, 0.4) !important;
+    box-shadow: 0 0 100px rgba(77, 1, 255, 0.4) !important;
     border-top: 2px solid;
     border-bottom: 2px solid;
     border-left: 0.5px solid;
     border-right:0.5px solid;
-    border-image: linear-gradient(var(--angle), #6114dc,#c3252500,#c3252500,#c3252500,#6114dc) 1;
+    border-image: linear-gradient(var(--angle), #6114dc,#dad8e000,#dad8e000,#dbd8e000,#6114dc) 1;
     animation: 3s rotate linear infinite,gradient 15s ease infinite;
-    background: linear-gradient(-45deg, #351c1ca1, #2b1010ab,#270505a6,#2c0808a1,#290202b0);
+    background: linear-gradient(-45deg, #211c35a1, #15102bab,#0e0527a6,#0f082ca1,#0c0229b0);
     background-size: 400% 400%;
 
 }
@@ -333,7 +333,7 @@
     border-radius: 4px;
     transition: 0.2s;
     overflow: visible !important;
-    background: linear-gradient(-45deg, #682e3ac2, #913144c9,#72192bc0,#a01732c4,#ff0033c4);
+    background: linear-gradient(-45deg, #3f2e68c2, #533191c9,#2c1972c0,#4b17a0c4,#4400ffc4);
     background-size: 400% 400%;
     border-radius: .3vh;
     transition: all 0.2s ease;
@@ -344,11 +344,11 @@
     border-radius: .6vh;
     border:3px solid black;
     transition: 0.2s;
-    box-shadow: 0 0 10px #ff0033 !important;
+    box-shadow: 0 0 10px #3700ff !important;
     overflow: visible !important;
-    background: linear-gradient(-45deg, #682e3ac2, #913144c9,#72192bc0,#a01732c4,#ff0033c4);
+    background: linear-gradient(-45deg, #3d2e68c2, #433191c9,#311972c0,#4717a0c4,#2f00ffc4);
     background-size: 400% 400%;
-    border-image: linear-gradient(var(--angle), #ff0033,#25b6c300,#ff0033,#25b6c300) 1;
+    border-image: linear-gradient(var(--angle), #4c00ff,#4725c300,#4400ff,#25b6c300) 1;
     font-size:5vh;
     transform:scale(1.05);
     cursor: pointer;
@@ -360,11 +360,11 @@
     border-radius: 4px;
     transition: 0.5s;
     overflow: visible !important;
-    background: linear-gradient(-45deg, #30151ac2, #36121ac9,#3d0d17c0,#3a0812c4,#49000fc4);
+    background: linear-gradient(-45deg, #1d1530c2, #1c1236c9,#140d3dc0,#19083ac4,#160049c4);
     background-size: 400% 400%;
     border-radius: .3vh;
     transition: all 0.2s ease;
-    box-shadow: 0 0 5px #ff0033 !important;
+    box-shadow: 0 0 5px #6f00ff !important;
 }
 
 #delete:hover {
@@ -372,11 +372,11 @@
     border-radius: .6vh;
     border:3px solid black;
     transition: 0.2s;
-    box-shadow: 0 0 10px #ff0033 !important;
+    box-shadow: 0 0 10px #4400ff !important;
     overflow: visible !important;
-    background: linear-gradient(-45deg, #30151ac2, #36121ac9,#3d0d17c0,#3a0812c4,#49000fc4);
+    background: linear-gradient(-45deg, #1e1530c2, #201236c9,#220d3dc0,#1f083ac4,#220049c4);
     background-size: 400% 400%;
-    border-image: linear-gradient(var(--angle), #ff0033,#25b6c300,#ff0033,#25b6c300) 1;
+    border-image: linear-gradient(var(--angle), #4c00ff,#25b6c300,#4c00ff,#25b6c300) 1;
     font-size:5vh;
     transform:scale(1.05);
     cursor: pointer;
@@ -392,16 +392,16 @@
     border-radius: .2vh;
     padding: 30px;
     border: 2px white solid;
-    background-color: rgb(15 0 0 / 85%);
+    background-color: rgba(6, 0, 15, 0.85);
     overflow: visible !important;
     border-top: 4px solid;
     border-bottom: 4px solid;
     border-left: 2px solid;
     border-right: 2px solid;
     box-shadow: 0 0 40px rgb(30 0 0 / 98%) !important;
-    border-image: linear-gradient(var(--angle), #6114dc,#c3252500,#c3252500,#c3252500,#6114dc) 1;
+    border-image: linear-gradient(var(--angle), #6114dc,#dbd8e000,#dad8e000,#dad8e000,#6114dc) 1;
     animation:5s rotate linear infinite,shake-slow3 10s ease-in-out infinite,gradient 15s ease infinite;
-    background: linear-gradient(-45deg, #351c1ca1, #2b1010ab,#270505a6,#2c0808a1,#290202b0);
+    background: linear-gradient(-45deg, #231c35a1, #16102bab,#0c0527a6,#13082ca1,#0c0229b0);
     background-size: 400% 400%;
 }
 
@@ -476,12 +476,12 @@
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(23 23 23 / 80%);
+    background-color: rgba(23, 23, 23, 0.8);
     border-radius: .8vh;
     padding: 30px;
     font-family: 'Poppins', sans-serif;
-    box-shadow: 0 0 40px rgb(30 0 0 / 98%) !important;
-    border-image: linear-gradient(var(--angle), #6114dc,#c3252500,#c3252500,#c3252500,#6114dc) 1;
+    box-shadow: 0 0 40px rgba(8, 0, 30, 0.98) !important;
+    border-image: linear-gradient(var(--angle), #6114dc,#dbd8e000,#dad8e000,#dad8e000,#6114dc) 1;
     animation:gradient 15s ease infinite;
     color: #ededed;
     font-family: 'Poppins', sans-serif;
@@ -562,7 +562,7 @@
     border-radius: 4px;
     transition: 0.2s;
     overflow: visible !important;
-    background: linear-gradient(-45deg, #682e3a, #913144,#72192b,#a01732,#ff0033);
+    background: linear-gradient(-45deg, #422e68, #4b3191,#311972,#4017a0,#6200ff);
     background-size: 400% 400%;
 }
 
@@ -577,11 +577,11 @@
     border-radius: .6vh;
     border:2px solid black;
     transition: 0.2s;
-    box-shadow: 0 0 20px #ff0033 !important;
+    box-shadow: 0 0 20px #4400ff !important;
     overflow: visible !important;
-    background: linear-gradient(-45deg, #682e3a, #913144,#72192b,#a01732,#ff0033);
+    background: linear-gradient(-45deg, #3d2e68, #433191,#291972,#3c17a0,#3700ff);
     background-size: 400% 400%;
-    border-image: linear-gradient(var(--angle), #ff0033,#25b6c300,#25b6c300,#25b6c300,#ff0033) 1;
+    border-image: linear-gradient(var(--angle), #2f00ff,#25b6c300,#25b6c300,#25b6c300,#3700ff) 1;
     cursor: pointer;
 }
 
@@ -614,21 +614,21 @@
     margin-left: auto;
     margin-right: auto;
     left: 27%;
-    background-color: rgba(15, 0, 0, 0.8);
+    background-color: rgba(3, 0, 15, 0.8);
     border-radius: .6vh;
     border:2px solid black;
     padding: 30px;
     font-family: 'Poppins', sans-serif;
-    box-shadow: 0 0 40px rgb(20 0 0 / 98%) !important;
+    box-shadow: 0 0 40px rgba(4, 0, 20, 0.98) !important;
     animation: 8s rotate linear infinite,shake-slow 10s ease-in-out infinite;
-    border-image: linear-gradient(var(--angle), #6114dc,#c3252500,#c3252500,#c3252500,#6114dc) 1;
+    border-image: linear-gradient(var(--angle), #6114dc,#dad8e000,#dbd8e000,#dbd8e000,#6114dc) 1;
 
 }
 
 .material-icons-one {
     margin-left: 39.5vh;
     color: #ededed;
-    background: linear-gradient(-45deg, #351c1ca1, #2b1010ab,#270505a6,#2c0808a1,#290202b0);
+    background: linear-gradient(-45deg, #261c35a1, #18102bab,#110527a6,#12082ca1,#0e0229b0);
     animation: 3s rotate linear infinite,gradient 15s ease infinite;
     background-size: 400% 400%;
     font-size: 1.3vh;
@@ -639,7 +639,7 @@
 .material-icons-one:hover {
     margin-left: 39.5vh;
     color: #ededed;
-    background: linear-gradient(-45deg, #351c1ca1, #2b1010ab,#270505a6,#2c0808a1,#290202b0);
+    background: linear-gradient(-45deg, #231c35a1, #17102bab,#110527a6,#10082ca1,#0c0229b0);
     animation: 3s rotate linear infinite,gradient 15s ease infinite;
     background-size: 400% 400%;
     font-size: 1.3vh;
@@ -769,7 +769,7 @@ input[type="date"]::-webkit-clear-button {
     position: absolute;
     max-width: 87%;
     height: 4vh;
-    background: linear-gradient(-45deg, #351c1ca1, #2b1010ab,#270505a6,#2c0808a1,#290202b0);
+    background: linear-gradient(-45deg, #241c35a1, #16102bab,#0e0527a6,#13082ca1,#100229b0);
     background-size: 400% 400%;
     border-radius: .3vh;
     bottom: 3vh;
@@ -778,7 +778,7 @@ input[type="date"]::-webkit-clear-button {
     right: 0;
     animation:7s rotate linear infinite,gradient 15s ease infinite;
     border: 1.5px solid;
-    border-image: linear-gradient(var(--angle), #6114dc,#c3252500,#c3252500,#c3252500,#6114dc) 1;
+    border-image: linear-gradient(var(--angle), #6114dc,#dad8e000,#dad8e000,#dad8e000,#6114dc) 1;
     border-radius: 7px;
 
 }
@@ -787,7 +787,7 @@ input[type="date"]::-webkit-clear-button {
     position: absolute;
     max-width: 87%;
     height: 4vh;
-    background: linear-gradient(-45deg, #351c1ca1, #2b1010ab,#270505a6,#2c0808a1,#290202b0);
+    background: linear-gradient(-45deg, #231c35a1, #18102bab,#0f0527a6,#0f082ca1,#0c0229b0);
     background-size: 400% 400%;
     border-radius: .3vh;
     bottom: 3vh;
@@ -796,9 +796,9 @@ input[type="date"]::-webkit-clear-button {
     right: 0;
     animation:7s rotate linear infinite,gradient 15s ease infinite;
     border: 1.5px solid;
-    border-image: linear-gradient(var(--angle), #6114dc,#c3252500,#c3252500,#c3252500,#6114dc) 1;
+    border-image: linear-gradient(var(--angle), #6114dc,#d9d8e000,#dad8e000,#dad8e000,#6114dc) 1;
     border-radius: 7px;
-    box-shadow: 0 0 100px rgb(30 0 0 / 98%) !important;
+    box-shadow: 0 0 100px rgba(9, 0, 30, 0.98) !important;
     transform:scale(1.1);
     cursor: pointer;
 
